@@ -1,0 +1,16 @@
+{
+  "presets": [
+    ["es2015", { "modules": "umd" }],
+    "stage-2"
+  ],
+  "plugins": [
+    "transform-runtime",
+    "add-module-exports"
+  ],
+  "comments": false,
+  "env": {
+    "test": {
+      "plugins": [ "istanbul" ]
+    }
+  }
+}
