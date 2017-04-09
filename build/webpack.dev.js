@@ -1,6 +1,5 @@
 var path = require('path')
 var webpack = require('webpack')
-var version = require('../package.json').version
 
 function resolve(dir) {
   return path.join(__dirname, '..', dir)
@@ -32,10 +31,5 @@ module.exports = {
         include: [resolve('src'), resolve('test')]
       }
     ]
-  },
-  plugins: [
-    new webpack.DefinePlugin({
-      __VERSION__: JSON.stringify(version)
-    })
-  ]
+  }
 };

@@ -2,7 +2,7 @@
   "name": "lyric-parser",
   "version": "1.0.0",
   "description": "lyric-parser base on javascript",
-  "main": "index.js",
+  "main": "dist/lyric.js",
   "scripts": {
     "dev": "webpack-dev-server --config build/webpack.dev.js --port 9090 --inline --hot --content-base ./demo --host 0.0.0.0",
     "build": "webpack --config build/webpack.prod.js"
