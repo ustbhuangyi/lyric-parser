@@ -1,6 +1,6 @@
 {
   "name": "lyric-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "lyric-parser base on javascript",
   "main": "dist/lyric.js",
   "scripts": {
