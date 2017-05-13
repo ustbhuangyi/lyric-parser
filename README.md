@@ -24,7 +24,7 @@ lyric-parser base on javascript
 
 play the lyric 
 
-#### stop
+#### stop()
 
 stop play
 
