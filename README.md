@@ -32,6 +32,6 @@ stop play
 
 seek to correspond starTime
 
-#### toggelePlay()
+#### togglePlay()
 
 toggle play state
